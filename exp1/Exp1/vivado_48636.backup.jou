@@ -1,0 +1,73 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Tue Sep 27 14:16:48 2022
+# Process ID: 48636
+# Current directory: F:/arch/exp/Exp1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent44916 F:\arch\exp\Exp1\Exp1.xpr
+# Log file: F:/arch/exp/Exp1/vivado.log
+# Journal file: F:/arch/exp/Exp1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project F:/arch/exp/Exp1/Exp1.xpr
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+launch_simulation
+open_wave_config F:/arch/exp/Exp1/code/sim/core_sim_behav.wcfg
+source core_sim.tcl
+close_sim
+launch_simulation
+open_wave_config F:/arch/exp/Exp1/code/sim/core_sim_behav.wcfg
+source core_sim.tcl
+close_sim
+launch_simulation
+open_wave_config F:/arch/exp/Exp1/code/sim/core_sim_behav.wcfg
+source core_sim.tcl
+relaunch_sim
+run all
+relaunch_sim
+close_sim
+launch_simulation
+open_wave_config F:/arch/exp/Exp1/code/sim/core_sim_behav.wcfg
+source core_sim.tcl
+close_sim
+launch_simulation
+open_wave_config F:/arch/exp/Exp1/code/sim/core_sim_behav.wcfg
+source core_sim.tcl
+close_sim
+launch_simulation
+open_wave_config F:/arch/exp/Exp1/code/sim/core_sim_behav.wcfg
+source core_sim.tcl
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+close_sim
+launch_simulation
+open_wave_config F:/arch/exp/Exp1/code/sim/core_sim_behav.wcfg
+source core_sim.tcl
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+run all
+relaunch_sim
+close_sim
+launch_simulation
+launch_simulation
+open_wave_config F:/arch/exp/Exp1/code/sim/core_sim_behav.wcfg
+source core_sim.tcl
+relaunch_sim
+relaunch_sim
+close_sim
