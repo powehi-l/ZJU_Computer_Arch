@@ -1,7 +1,7 @@
 Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
-| Date         : Sat Oct 22 13:04:03 2022
+| Date         : Tue Nov  1 21:54:07 2022
 | Host         : LAPTOP-CTGRF3O8 running 64-bit major release  (build 9200)
 | Command      : report_utilization -file top_utilization_synth.rpt -pb top_utilization_synth.pb
 | Design       : top
@@ -30,8 +30,8 @@ Table of Contents
 +----------------------------+------+-------+-----------+-------+
 |          Site Type         | Used | Fixed | Available | Util% |
 +----------------------------+------+-------+-----------+-------+
-| Slice LUTs*                | 6685 |     0 |    203800 |  3.28 |
-|   LUT as Logic             | 6642 |     0 |    203800 |  3.26 |
+| Slice LUTs*                | 6687 |     0 |    203800 |  3.28 |
+|   LUT as Logic             | 6644 |     0 |    203800 |  3.26 |
 |   LUT as Memory            |   43 |     0 |     64000 |  0.07 |
 |     LUT as Distributed RAM |   36 |     0 |           |       |
 |     LUT as Shift Register  |    7 |     0 |           |       |
@@ -154,14 +154,14 @@ Table of Contents
 +------------+------+---------------------+
 |  Ref Name  | Used | Functional Category |
 +------------+------+---------------------+
-| LUT6       | 4747 |                 LUT |
+| LUT6       | 4727 |                 LUT |
 | FDRE       | 1545 |        Flop & Latch |
 | FDCE       | 1281 |        Flop & Latch |
-| LUT5       | 1008 |                 LUT |
+| LUT5       | 1007 |                 LUT |
 | MUXF7      |  797 |               MuxFx |
-| LUT3       |  616 |                 LUT |
-| LUT4       |  509 |                 LUT |
-| LUT2       |  217 |                 LUT |
+| LUT3       |  615 |                 LUT |
+| LUT4       |  527 |                 LUT |
+| LUT2       |  219 |                 LUT |
 | MUXF8      |  212 |               MuxFx |
 | CARRY4     |   74 |          CarryLogic |
 | RAMD32     |   36 |  Distributed Memory |

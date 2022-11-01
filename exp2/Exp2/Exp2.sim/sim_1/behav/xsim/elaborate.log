@@ -7,4 +7,30 @@ WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 2 for
 WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 32 for port 'Addr' [F:/arch/exp2/Exp2/code/core/RV32core.v:229]
 WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 2 for port 'DatatoReg' [F:/arch/exp2/Exp2/code/core/RV32core.v:233]
 Completed static elaboration
-INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.debug_clk
+Compiling module xil_defaultlib.REG32
+Compiling module xil_defaultlib.add_32
+Compiling module xil_defaultlib.MUX2T1_32
+Compiling module xil_defaultlib.ROM_D
+Compiling module xil_defaultlib.REG_IF_ID
+Compiling module xil_defaultlib.CtrlUnit
+Compiling module xil_defaultlib.Regs
+Compiling module xil_defaultlib.ImmGen
+Compiling module xil_defaultlib.MUX4T1_32
+Compiling module xil_defaultlib.cmp_32
+Compiling module xil_defaultlib.HazardDetectionUnit
+Compiling module xil_defaultlib.REG_ID_EX
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.REG_EX_MEM
+Compiling module xil_defaultlib.RAM_B
+Compiling module xil_defaultlib.CSRRegs
+Compiling module xil_defaultlib.ExceptionUnit
+Compiling module xil_defaultlib.REG_MEM_WB
+Compiling module xil_defaultlib.CPUTEST
+Compiling module xil_defaultlib.RV32core
+Compiling module xil_defaultlib.core_sim
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot core_sim_behav

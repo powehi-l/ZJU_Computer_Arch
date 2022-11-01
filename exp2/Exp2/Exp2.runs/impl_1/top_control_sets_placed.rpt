@@ -1,7 +1,7 @@
 Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 ------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
-| Date         : Sat Oct 22 13:06:04 2022
+| Date         : Tue Nov  1 21:56:14 2022
 | Host         : LAPTOP-CTGRF3O8 running 64-bit major release  (build 9200)
 | Command      : report_control_sets -verbose -file top_control_sets_placed.rpt
 | Design       : top
@@ -54,11 +54,11 @@ Table of Contents
 +--------------+-----------------------+------------------------+-----------------+--------------+
 | Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
 +--------------+-----------------------+------------------------+-----------------+--------------+
-| No           | No                    | No                     |              78 |           42 |
-| No           | No                    | Yes                    |             209 |           75 |
-| No           | Yes                   | No                     |              68 |           27 |
-| Yes          | No                    | No                     |            1370 |          626 |
-| Yes          | No                    | Yes                    |            1088 |          402 |
+| No           | No                    | No                     |              78 |           41 |
+| No           | No                    | Yes                    |             209 |           82 |
+| No           | Yes                   | No                     |              68 |           29 |
+| Yes          | No                    | No                     |            1370 |          629 |
+| Yes          | No                    | Yes                    |            1088 |          429 |
 | Yes          | Yes                   | No                     |              54 |           15 |
 +--------------+-----------------------+------------------------+-----------------+--------------+
 
@@ -71,66 +71,66 @@ Table of Contents
 +-------------------+----------------------------------------+----------------------------------+------------------+----------------+
 |  CLK_GEN/CLK_OUT3 | DISPLAY/P2S_LED/next_data_count        | rst_all                          |                1 |              4 |
 |  debug_clk        |                                        |                                  |                3 |              4 |
-|  CLK_GEN/CLK_OUT1 |                                        | vga/U12/v_count_reg[8]_15        |                3 |              5 |
 |  CLK_GEN/CLK_OUT3 | BTN_SCAN/p_0_in                        |                                  |                2 |              5 |
-| ~CLK_GEN/CLK_OUT1 | SW_IBUF[13]                            |                                  |                2 |              6 |
-| ~CLK_GEN/CLK_OUT1 | vga/__9/MEMBUF_reg_0_63_0_2_i_2_n_0    |                                  |                2 |              6 |
+|  CLK_GEN/CLK_OUT1 |                                        | vga/U12/v_count_reg[8]_15        |                3 |              5 |
 |  CLK_GEN/CLK_OUT3 | DISPLAY/P2S_SEG/next_data_count        | rst_all                          |                2 |              6 |
+| ~CLK_GEN/CLK_OUT1 | vga/__9/MEMBUF_reg_0_63_0_2_i_2_n_0    |                                  |                2 |              6 |
+| ~CLK_GEN/CLK_OUT1 | SW_IBUF[13]                            |                                  |                2 |              6 |
+|  CLK_GEN/CLK_OUT3 | DISPLAY/P2S_LED/buff_0                 | DISPLAY/P2S_LED/buff[16]_i_1_n_0 |                1 |              7 |
 |  CLK_GEN/CLK_OUT1 | vga/U12/E[0]                           |                                  |                6 |              7 |
-|  CLK_GEN/CLK_OUT3 | DISPLAY/P2S_LED/buff_0                 | DISPLAY/P2S_LED/buff[16]_i_1_n_0 |                2 |              7 |
-|  debug_clk        | core/reg_IF_ID/rst_all_reg             | core/reg_IF_ID/rst_all_reg_0     |                5 |              9 |
-|  debug_clk        | core/reg_IF_ID/isFlushed_reg_0[0]      | rst_all                          |                5 |             10 |
-|  CLK_GEN/CLK_OUT3 |                                        | vga/U12/h_count[9]_i_1_n_0       |                4 |             10 |
-|  CLK_GEN/CLK_OUT3 | vga/U12/v_count__21                    |                                  |                3 |             10 |
+|  debug_clk        | core/reg_IF_ID/rst_all_reg             | core/reg_IF_ID/rst_all_reg_0     |                6 |              9 |
+|  CLK_GEN/CLK_OUT3 |                                        | vga/U12/h_count[9]_i_1_n_0       |                6 |             10 |
 |  CLK_GEN/CLK_OUT3 | DISPLAY/P2S_LED/buff_0                 |                                  |                3 |             10 |
-|  CLK_GEN/CLK_OUT3 |                                        | vga/U12/rdn_reg_n_0              |                3 |             12 |
-|  CLK_GEN/CLK_OUT1 |                                        | vga/U12/v_count_reg[8]_14        |                8 |             13 |
+|  CLK_GEN/CLK_OUT3 | vga/U12/v_count__21                    |                                  |                3 |             10 |
+|  debug_clk        | core/reg_IF_ID/isFlushed_reg_0[0]      | rst_all                          |                4 |             10 |
+|  CLK_GEN/CLK_OUT3 |                                        | vga/U12/rdn_reg_n_0              |                4 |             12 |
 |  CLK_GEN/CLK_OUT3 | DISPLAY/P2S_SEG/buff                   | DISPLAY/P2S_SEG/buff[64]_i_1_n_0 |                2 |             13 |
+|  CLK_GEN/CLK_OUT1 |                                        | vga/U12/v_count_reg[8]_14        |                8 |             13 |
 |  CLK_GEN/CLK_OUT3 | DISPLAY/P2S_SEG/buff                   |                                  |                2 |             14 |
 |  CLK_GEN/CLK_OUT3 | DISPLAY/P2S_SEG/buff                   | DISPLAY/P2S_SEG/buff[63]_i_1_n_0 |                3 |             15 |
-|  CLK_GEN/CLK_OUT4 |                                        |                                  |                7 |             17 |
-|  CLK_GEN/CLK_OUT3 |                                        |                                  |               12 |             26 |
-|  CLK_GEN/CLK_OUT3 |                                        | rst_all                          |                9 |             28 |
-|  debug_clk        | core/reg_EXE_MEM/csr_rw_MEM_reg_3      | rst_all                          |               11 |             28 |
-|  CLK_GEN/CLK_OUT1 |                                        |                                  |               20 |             31 |
-|  debug_clk        | core/reg_EXE_MEM/csr_rw_MEM_reg_10[0]  | rst_all                          |               12 |             32 |
-|  debug_clk        | core/reg_EXE_MEM/csr_rw_MEM_reg_4[0]   | rst_all                          |               11 |             32 |
-|  debug_clk        | core/reg_EXE_MEM/csr_rw_MEM_reg_5[0]   | rst_all                          |               11 |             32 |
-|  debug_clk        | core/reg_EXE_MEM/csr_rw_MEM_reg_12[0]  | rst_all                          |               13 |             32 |
-|  debug_clk        | core/reg_EXE_MEM/csr_rw_MEM_reg_7[0]   | rst_all                          |               12 |             32 |
-|  debug_clk        | core/reg_EXE_MEM/csr_rw_MEM_reg_8[0]   | rst_all                          |               10 |             32 |
+|  CLK_GEN/CLK_OUT4 |                                        |                                  |                6 |             17 |
+|  CLK_GEN/CLK_OUT3 |                                        |                                  |               11 |             26 |
+|  CLK_GEN/CLK_OUT3 |                                        | rst_all                          |                8 |             28 |
+|  debug_clk        | core/reg_EXE_MEM/csr_rw_MEM_reg_3      | rst_all                          |                7 |             28 |
+|  CLK_GEN/CLK_OUT1 |                                        |                                  |               21 |             31 |
+| ~debug_clk        | core/reg_MEM_WB/IR_WB_reg[9]_14[0]     | rst_all                          |               15 |             32 |
+| ~debug_clk        | core/reg_MEM_WB/IR_WB_reg[9]_1[0]      | rst_all                          |               13 |             32 |
+|  debug_clk        | core/reg_EXE_MEM/csr_rw_MEM_reg_12[0]  | rst_all                          |               12 |             32 |
+|  debug_clk        | core/reg_EXE_MEM/mret_MEM_reg_0[0]     | rst_all                          |               10 |             32 |
+|  debug_clk        | core/reg_EXE_MEM/mret_MEM_reg_1[0]     | rst_all                          |               13 |             32 |
+|  debug_clk        | core/reg_EXE_MEM/csr_rw_MEM_reg_14[0]  | rst_all                          |                9 |             32 |
+|  debug_clk        | core/reg_EXE_MEM/mret_MEM_reg_2[0]     | rst_all                          |               10 |             32 |
+|  debug_clk        | core/reg_EXE_MEM/csr_rw_MEM_reg_4[0]   | rst_all                          |                9 |             32 |
+|  debug_clk        | core/reg_EXE_MEM/csr_rw_MEM_reg_8[0]   | rst_all                          |               12 |             32 |
 |  debug_clk        | core/reg_EXE_MEM/csr_rw_MEM_reg_6[0]   | rst_all                          |               11 |             32 |
-|  debug_clk        | core/reg_EXE_MEM/csr_rw_MEM_reg_14[0]  | rst_all                          |               14 |             32 |
-|  debug_clk        | core/reg_EXE_MEM/csr_rw_MEM_reg_11[0]  | rst_all                          |               12 |             32 |
-|  debug_clk        | core/reg_EXE_MEM/csr_rw_MEM_reg_9[0]   | rst_all                          |               11 |             32 |
-|  debug_clk        | core/reg_EXE_MEM/csr_rw_MEM_reg_2[0]   | rst_all                          |               10 |             32 |
-|  debug_clk        | core/reg_EXE_MEM/csr_rw_MEM_reg_13[0]  | rst_all                          |               13 |             32 |
-|  debug_clk        | core/reg_EXE_MEM/mret_MEM_reg_1[0]     | rst_all                          |               10 |             32 |
-|  debug_clk        | core/reg_EXE_MEM/mret_MEM_reg_0[0]     | rst_all                          |               12 |             32 |
-|  debug_clk        | core/reg_EXE_MEM/mret_MEM_reg_2[0]     | rst_all                          |               11 |             32 |
-|  debug_clk        | core/reg_IF_ID/PCurrent_ID[31]_i_1_n_0 | rst_all                          |               17 |             32 |
-| ~debug_clk        | core/reg_MEM_WB/E[0]                   | rst_all                          |               11 |             32 |
-| ~debug_clk        | core/reg_MEM_WB/RegWrite_WB_reg_0[0]   | rst_all                          |               10 |             32 |
-| ~debug_clk        | core/reg_MEM_WB/RegWrite_WB_reg_4[0]   | rst_all                          |               10 |             32 |
-| ~debug_clk        | core/reg_MEM_WB/RegWrite_WB_reg_9[0]   | rst_all                          |               15 |             32 |
-| ~debug_clk        | core/reg_MEM_WB/RegWrite_WB_reg_3[0]   | rst_all                          |               14 |             32 |
-| ~debug_clk        | core/reg_MEM_WB/RegWrite_WB_reg_2[0]   | rst_all                          |               11 |             32 |
-| ~debug_clk        | core/reg_MEM_WB/RegWrite_WB_reg_11[0]  | rst_all                          |               13 |             32 |
-| ~debug_clk        | core/reg_MEM_WB/RegWrite_WB_reg_1[0]   | rst_all                          |               10 |             32 |
-| ~debug_clk        | core/reg_MEM_WB/RegWrite_WB_reg_7[0]   | rst_all                          |               10 |             32 |
-| ~debug_clk        | core/reg_MEM_WB/RegWrite_WB_reg_13[0]  | rst_all                          |               12 |             32 |
-| ~debug_clk        | core/reg_MEM_WB/RegWrite_WB_reg_8[0]   | rst_all                          |               12 |             32 |
-| ~debug_clk        | core/reg_MEM_WB/RegWrite_WB_reg_6[0]   | rst_all                          |               10 |             32 |
-| ~debug_clk        | core/reg_MEM_WB/RegWrite_WB_reg_12[0]  | rst_all                          |               11 |             32 |
-| ~debug_clk        | core/reg_MEM_WB/RegWrite_WB_reg_5[0]   | rst_all                          |               14 |             32 |
-| ~debug_clk        | core/reg_MEM_WB/RegWrite_WB_reg_10[0]  | rst_all                          |                9 |             32 |
+|  debug_clk        | core/reg_EXE_MEM/csr_rw_MEM_reg_13[0]  | rst_all                          |               12 |             32 |
+|  debug_clk        | core/reg_EXE_MEM/csr_rw_MEM_reg_7[0]   | rst_all                          |               12 |             32 |
+|  debug_clk        | core/reg_EXE_MEM/csr_rw_MEM_reg_5[0]   | rst_all                          |               11 |             32 |
+|  debug_clk        | core/reg_EXE_MEM/csr_rw_MEM_reg_2[0]   | rst_all                          |               15 |             32 |
+|  debug_clk        | core/reg_EXE_MEM/csr_rw_MEM_reg_11[0]  | rst_all                          |               10 |             32 |
+|  debug_clk        | core/reg_EXE_MEM/csr_rw_MEM_reg_10[0]  | rst_all                          |               15 |             32 |
+|  debug_clk        | core/reg_EXE_MEM/csr_rw_MEM_reg_9[0]   | rst_all                          |               14 |             32 |
+|  debug_clk        | core/reg_IF_ID/PCurrent_ID[31]_i_1_n_0 | rst_all                          |               18 |             32 |
+| ~debug_clk        | core/reg_MEM_WB/IR_WB_reg[9]_2[0]      | rst_all                          |               13 |             32 |
+| ~debug_clk        | core/reg_MEM_WB/IR_WB_reg[9]_7[0]      | rst_all                          |               10 |             32 |
+| ~debug_clk        | core/reg_MEM_WB/IR_WB_reg[9]_12[0]     | rst_all                          |               14 |             32 |
+| ~debug_clk        | core/reg_MEM_WB/IR_WB_reg[9]_0[0]      | rst_all                          |               12 |             32 |
+| ~debug_clk        | core/reg_MEM_WB/IR_WB_reg[9]_8[0]      | rst_all                          |               15 |             32 |
+| ~debug_clk        | core/reg_MEM_WB/IR_WB_reg[9]_10[0]     | rst_all                          |               14 |             32 |
+| ~debug_clk        | core/reg_MEM_WB/IR_WB_reg[9]_11[0]     | rst_all                          |               14 |             32 |
+| ~debug_clk        | core/reg_MEM_WB/IR_WB_reg[9]_3[0]      | rst_all                          |               13 |             32 |
+| ~debug_clk        | core/reg_MEM_WB/IR_WB_reg[9]_13[0]     | rst_all                          |               12 |             32 |
+| ~debug_clk        | core/reg_MEM_WB/IR_WB_reg[9]_6[0]      | rst_all                          |               12 |             32 |
+| ~debug_clk        | core/reg_MEM_WB/IR_WB_reg[9]_9[0]      | rst_all                          |               17 |             32 |
+| ~debug_clk        | core/reg_MEM_WB/IR_WB_reg[9]_5[0]      | rst_all                          |               13 |             32 |
+| ~debug_clk        | core/reg_MEM_WB/IR_WB_reg[9]_4[0]      | rst_all                          |               12 |             32 |
 |  CLK_GEN/CLK_OUT1 | vga/U12/should_latch_debug_data        |                                  |                6 |             48 |
-|  debug_clk        | core/reg_IF_ID/E[0]                    | rst_all                          |               24 |             58 |
-|  debug_clk        | core/reg_MEM_WB/ALUO_WB[31]_i_1_n_0    |                                  |               21 |             65 |
-|  debug_clk        | core/reg_IF_ID/rst_all_reg             |                                  |               46 |             97 |
-|  debug_clk        | core/reg_MEM_WB/isFlushed_reg_0        |                                  |               85 |            145 |
-|  debug_clk        |                                        | rst_all                          |               75 |            209 |
-| ~debug_clk        | core/reg_EXE_MEM/E[0]                  |                                  |              458 |           1024 |
+|  debug_clk        | core/reg_IF_ID/E[0]                    | rst_all                          |               26 |             58 |
+|  debug_clk        | core/reg_EXE_MEM/E[0]                  |                                  |               22 |             65 |
+|  debug_clk        | core/reg_IF_ID/rst_all_reg             |                                  |               49 |             97 |
+|  debug_clk        | core/reg_ID_EX/rst_all_reg             |                                  |               82 |            145 |
+|  debug_clk        |                                        | rst_all                          |               82 |            209 |
+| ~debug_clk        | core/reg_EXE_MEM/ALUO_MEM_reg[26]_0[0] |                                  |              460 |           1024 |
 +-------------------+----------------------------------------+----------------------------------+------------------+----------------+
 
 

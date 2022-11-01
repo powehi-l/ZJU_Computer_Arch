@@ -1,7 +1,7 @@
 Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 -----------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
-| Date         : Sat Oct 22 13:15:51 2022
+| Date         : Tue Nov  1 22:07:42 2022
 | Host         : LAPTOP-CTGRF3O8 running 64-bit major release  (build 9200)
 | Command      : report_methodology -file top_methodology_drc_routed.rpt -pb top_methodology_drc_routed.pb -rpx top_methodology_drc_routed.rpx
 | Design       : top
@@ -23,12 +23,12 @@ Table of Contents
           Floorplan: design_1
       Design limits: <entire design considered>
              Max violations: <unlimited>
-             Violations found: 39
+             Violations found: 40
 +-----------+----------+-----------------------+------------+
 | Rule      | Severity | Description           | Violations |
 +-----------+----------+-----------------------+------------+
 | TIMING-14 | Warning  | LUT on the clock tree | 1          |
-| TIMING-16 | Warning  | Large setup violation | 38         |
+| TIMING-16 | Warning  | Large setup violation | 39         |
 +-----------+----------+-----------------------+------------+
 
 2. REPORT DETAILS
@@ -40,192 +40,197 @@ Related violations: <none>
 
 TIMING-16#1 Warning
 Large setup violation  
-There is a large setup violation of -1.392 ns between vga/U12/h_count_reg[1]/C (clocked by clkout2) and vga/ascii_code_reg[6]/D (clocked by clkout0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+There is a large setup violation of -1.482 ns between vga/U12/h_count_reg[3]/C (clocked by clkout2) and vga/ascii_code_reg[0]_inv/D (clocked by clkout0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
 Related violations: <none>
 
 TIMING-16#2 Warning
 Large setup violation  
-There is a large setup violation of -1.569 ns between vga/U12/h_count_reg[1]/C (clocked by clkout2) and vga/ascii_code_reg[3]/D (clocked by clkout0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+There is a large setup violation of -1.815 ns between vga/U12/h_count_reg[3]/C (clocked by clkout2) and vga/ascii_code_reg[6]/D (clocked by clkout0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
 Related violations: <none>
 
 TIMING-16#3 Warning
 Large setup violation  
-There is a large setup violation of -1.583 ns between vga/U12/h_count_reg[1]/C (clocked by clkout2) and vga/ascii_code_reg[1]/D (clocked by clkout0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+There is a large setup violation of -1.841 ns between vga/U12/h_count_reg[3]/C (clocked by clkout2) and vga/ascii_code_reg[3]/D (clocked by clkout0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
 Related violations: <none>
 
 TIMING-16#4 Warning
 Large setup violation  
-There is a large setup violation of -1.650 ns between vga/U12/h_count_reg[1]/C (clocked by clkout2) and vga/ascii_code_reg[4]/D (clocked by clkout0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+There is a large setup violation of -1.900 ns between vga/U12/h_count_reg[3]/C (clocked by clkout2) and vga/ascii_code_reg[4]/D (clocked by clkout0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
 Related violations: <none>
 
 TIMING-16#5 Warning
 Large setup violation  
-There is a large setup violation of -1.738 ns between vga/U12/h_count_reg[1]/C (clocked by clkout2) and vga/ascii_code_reg[5]/D (clocked by clkout0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+There is a large setup violation of -2.055 ns between vga/U12/h_count_reg[3]/C (clocked by clkout2) and vga/ascii_code_reg[1]/D (clocked by clkout0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
 Related violations: <none>
 
 TIMING-16#6 Warning
 Large setup violation  
-There is a large setup violation of -1.898 ns between vga/U12/h_count_reg[1]/C (clocked by clkout2) and vga/ascii_code_reg[2]/D (clocked by clkout0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+There is a large setup violation of -2.084 ns between vga/U12/h_count_reg[3]/C (clocked by clkout2) and vga/ascii_code_reg[2]/D (clocked by clkout0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
 Related violations: <none>
 
 TIMING-16#7 Warning
 Large setup violation  
-There is a large setup violation of -3.879 ns between core/reg_EXE_MEM/ALUO_MEM_reg[4]/C (clocked by clkout3) and vga/data_buf_reg_0_3_18_23/RAMB/I (clocked by clkout0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+There is a large setup violation of -2.183 ns between vga/U12/h_count_reg[3]/C (clocked by clkout2) and vga/ascii_code_reg[5]/D (clocked by clkout0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
 Related violations: <none>
 
 TIMING-16#8 Warning
 Large setup violation  
-There is a large setup violation of -4.091 ns between core/reg_EXE_MEM/ALUO_MEM_reg[4]/C (clocked by clkout3) and vga/data_buf_reg_0_3_12_17/RAMA/I (clocked by clkout0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+There is a large setup violation of -4.321 ns between core/reg_ID_EX/ALUSrc_A_EX_reg_rep__0/C (clocked by clkout3) and vga/data_buf_reg_0_3_18_23/RAMA/I (clocked by clkout0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
 Related violations: <none>
 
 TIMING-16#9 Warning
 Large setup violation  
-There is a large setup violation of -4.180 ns between core/reg_EXE_MEM/ALUO_MEM_reg[4]/C (clocked by clkout3) and vga/data_buf_reg_0_3_6_11/RAMB/I (clocked by clkout0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+There is a large setup violation of -4.349 ns between core/reg_ID_EX/ALUSrc_A_EX_reg_rep__0/C (clocked by clkout3) and vga/data_buf_reg_0_3_0_5/RAMC_D1/I (clocked by clkout0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
 Related violations: <none>
 
 TIMING-16#10 Warning
 Large setup violation  
-There is a large setup violation of -4.191 ns between core/reg_EXE_MEM/ALUO_MEM_reg[4]/C (clocked by clkout3) and vga/data_buf_reg_0_3_12_17/RAMA_D1/I (clocked by clkout0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+There is a large setup violation of -4.520 ns between core/reg_ID_EX/ALUSrc_A_EX_reg_rep__0/C (clocked by clkout3) and vga/data_buf_reg_0_3_0_5/RAMB/I (clocked by clkout0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
 Related violations: <none>
 
 TIMING-16#11 Warning
 Large setup violation  
-There is a large setup violation of -4.207 ns between core/reg_EXE_MEM/ALUO_MEM_reg[4]/C (clocked by clkout3) and vga/data_buf_reg_0_3_12_17/RAMB/I (clocked by clkout0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+There is a large setup violation of -4.523 ns between core/reg_ID_EX/ALUSrc_A_EX_reg_rep__0/C (clocked by clkout3) and vga/data_buf_reg_0_3_0_5/RAMC/I (clocked by clkout0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
 Related violations: <none>
 
 TIMING-16#12 Warning
 Large setup violation  
-There is a large setup violation of -4.228 ns between core/reg_EXE_MEM/ALUO_MEM_reg[4]/C (clocked by clkout3) and vga/data_buf_reg_0_3_18_23/RAMC/I (clocked by clkout0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+There is a large setup violation of -4.544 ns between core/reg_ID_EX/ALUSrc_A_EX_reg_rep__0/C (clocked by clkout3) and vga/data_buf_reg_0_3_12_17/RAMA/I (clocked by clkout0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
 Related violations: <none>
 
 TIMING-16#13 Warning
 Large setup violation  
-There is a large setup violation of -4.246 ns between core/reg_EXE_MEM/ALUO_MEM_reg[4]/C (clocked by clkout3) and vga/data_buf_reg_0_3_18_23/RAMA/I (clocked by clkout0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+There is a large setup violation of -4.545 ns between core/reg_ID_EX/ALUSrc_A_EX_reg_rep__0/C (clocked by clkout3) and vga/data_buf_reg_0_3_24_29/RAMC/I (clocked by clkout0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
 Related violations: <none>
 
 TIMING-16#14 Warning
 Large setup violation  
-There is a large setup violation of -4.277 ns between core/reg_EXE_MEM/ALUO_MEM_reg[4]/C (clocked by clkout3) and vga/data_buf_reg_0_3_24_29/RAMA_D1/I (clocked by clkout0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+There is a large setup violation of -4.559 ns between core/reg_ID_EX/ALUSrc_A_EX_reg_rep__0/C (clocked by clkout3) and vga/data_buf_reg_0_3_24_29/RAMB_D1/I (clocked by clkout0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
 Related violations: <none>
 
 TIMING-16#15 Warning
 Large setup violation  
-There is a large setup violation of -4.277 ns between core/reg_EXE_MEM/ALUO_MEM_reg[4]/C (clocked by clkout3) and vga/data_buf_reg_0_3_6_11/RAMA_D1/I (clocked by clkout0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+There is a large setup violation of -4.577 ns between core/reg_ID_EX/ALUSrc_A_EX_reg_rep__0/C (clocked by clkout3) and vga/data_buf_reg_0_3_18_23/RAMC_D1/I (clocked by clkout0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
 Related violations: <none>
 
 TIMING-16#16 Warning
 Large setup violation  
-There is a large setup violation of -4.291 ns between core/reg_EXE_MEM/ALUO_MEM_reg[4]/C (clocked by clkout3) and vga/data_buf_reg_0_3_6_11/RAMC/I (clocked by clkout0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+There is a large setup violation of -4.590 ns between core/reg_ID_EX/ALUSrc_A_EX_reg_rep__0/C (clocked by clkout3) and vga/data_buf_reg_0_3_6_11/RAMA_D1/I (clocked by clkout0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
 Related violations: <none>
 
 TIMING-16#17 Warning
 Large setup violation  
-There is a large setup violation of -4.294 ns between core/reg_EXE_MEM/ALUO_MEM_reg[4]/C (clocked by clkout3) and vga/data_buf_reg_0_3_24_29/RAMA/I (clocked by clkout0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+There is a large setup violation of -4.593 ns between core/reg_ID_EX/ALUSrc_A_EX_reg_rep__0/C (clocked by clkout3) and vga/data_buf_reg_0_3_24_29/RAMB/I (clocked by clkout0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
 Related violations: <none>
 
 TIMING-16#18 Warning
 Large setup violation  
-There is a large setup violation of -4.302 ns between core/reg_EXE_MEM/ALUO_MEM_reg[4]/C (clocked by clkout3) and vga/data_buf_reg_0_3_0_5/RAMC/I (clocked by clkout0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+There is a large setup violation of -4.621 ns between core/reg_ID_EX/ALUSrc_A_EX_reg_rep__0/C (clocked by clkout3) and vga/data_buf_reg_0_3_30_31/RAMA/I (clocked by clkout0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
 Related violations: <none>
 
 TIMING-16#19 Warning
 Large setup violation  
-There is a large setup violation of -4.344 ns between core/reg_EXE_MEM/ALUO_MEM_reg[4]/C (clocked by clkout3) and vga/data_buf_reg_0_3_6_11/RAMA/I (clocked by clkout0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+There is a large setup violation of -4.637 ns between core/reg_ID_EX/ALUSrc_A_EX_reg_rep__0/C (clocked by clkout3) and vga/data_buf_reg_0_3_6_11/RAMB/I (clocked by clkout0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
 Related violations: <none>
 
 TIMING-16#20 Warning
 Large setup violation  
-There is a large setup violation of -4.374 ns between core/reg_EXE_MEM/ALUO_MEM_reg[4]/C (clocked by clkout3) and vga/data_buf_reg_0_3_24_29/RAMB/I (clocked by clkout0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+There is a large setup violation of -4.672 ns between core/reg_ID_EX/ALUSrc_A_EX_reg_rep__0/C (clocked by clkout3) and vga/data_buf_reg_0_3_12_17/RAMB/I (clocked by clkout0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
 Related violations: <none>
 
 TIMING-16#21 Warning
 Large setup violation  
-There is a large setup violation of -4.378 ns between core/reg_EXE_MEM/ALUO_MEM_reg[4]/C (clocked by clkout3) and vga/data_buf_reg_0_3_18_23/RAMA_D1/I (clocked by clkout0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+There is a large setup violation of -4.675 ns between core/reg_ID_EX/ALUSrc_A_EX_reg_rep__0/C (clocked by clkout3) and vga/data_buf_reg_0_3_24_29/RAMC_D1/I (clocked by clkout0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
 Related violations: <none>
 
 TIMING-16#22 Warning
 Large setup violation  
-There is a large setup violation of -4.378 ns between core/reg_EXE_MEM/ALUO_MEM_reg[4]/C (clocked by clkout3) and vga/data_buf_reg_0_3_24_29/RAMB_D1/I (clocked by clkout0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+There is a large setup violation of -4.700 ns between core/reg_ID_EX/ALUSrc_A_EX_reg_rep__0/C (clocked by clkout3) and vga/data_buf_reg_0_3_18_23/RAMA_D1/I (clocked by clkout0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
 Related violations: <none>
 
 TIMING-16#23 Warning
 Large setup violation  
-There is a large setup violation of -4.387 ns between core/reg_EXE_MEM/ALUO_MEM_reg[4]/C (clocked by clkout3) and vga/data_buf_reg_0_3_6_11/RAMC_D1/I (clocked by clkout0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+There is a large setup violation of -4.701 ns between core/reg_ID_EX/ALUSrc_A_EX_reg_rep__0/C (clocked by clkout3) and vga/data_buf_reg_0_3_12_17/RAMB_D1/I (clocked by clkout0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
 Related violations: <none>
 
 TIMING-16#24 Warning
 Large setup violation  
-There is a large setup violation of -4.398 ns between core/reg_EXE_MEM/ALUO_MEM_reg[4]/C (clocked by clkout3) and vga/data_buf_reg_0_3_18_23/RAMB_D1/I (clocked by clkout0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+There is a large setup violation of -4.720 ns between core/reg_ID_EX/ALUSrc_A_EX_reg_rep__0/C (clocked by clkout3) and vga/data_buf_reg_0_3_24_29/RAMA/I (clocked by clkout0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
 Related violations: <none>
 
 TIMING-16#25 Warning
 Large setup violation  
-There is a large setup violation of -4.402 ns between core/reg_EXE_MEM/ALUO_MEM_reg[4]/C (clocked by clkout3) and vga/data_buf_reg_0_3_30_31/RAMA/I (clocked by clkout0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+There is a large setup violation of -4.761 ns between core/reg_ID_EX/ALUSrc_A_EX_reg_rep__0/C (clocked by clkout3) and vga/data_buf_reg_0_3_6_11/RAMA/I (clocked by clkout0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
 Related violations: <none>
 
 TIMING-16#26 Warning
 Large setup violation  
-There is a large setup violation of -4.405 ns between core/reg_EXE_MEM/ALUO_MEM_reg[4]/C (clocked by clkout3) and vga/data_buf_reg_0_3_12_17/RAMB_D1/I (clocked by clkout0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+There is a large setup violation of -4.763 ns between core/reg_ID_EX/ALUSrc_A_EX_reg_rep__0/C (clocked by clkout3) and vga/data_buf_reg_0_3_0_5/RAMB_D1/I (clocked by clkout0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
 Related violations: <none>
 
 TIMING-16#27 Warning
 Large setup violation  
-There is a large setup violation of -4.420 ns between core/reg_EXE_MEM/ALUO_MEM_reg[4]/C (clocked by clkout3) and vga/data_buf_reg_0_3_0_5/RAMC_D1/I (clocked by clkout0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+There is a large setup violation of -4.767 ns between core/reg_ID_EX/ALUSrc_A_EX_reg_rep__0/C (clocked by clkout3) and vga/data_buf_reg_0_3_30_31/RAMA_D1/I (clocked by clkout0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
 Related violations: <none>
 
 TIMING-16#28 Warning
 Large setup violation  
-There is a large setup violation of -4.420 ns between core/reg_EXE_MEM/ALUO_MEM_reg[4]/C (clocked by clkout3) and vga/data_buf_reg_0_3_12_17/RAMC/I (clocked by clkout0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+There is a large setup violation of -4.781 ns between core/reg_ID_EX/ALUSrc_A_EX_reg_rep__0/C (clocked by clkout3) and vga/data_buf_reg_0_3_0_5/RAMA/I (clocked by clkout0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
 Related violations: <none>
 
 TIMING-16#29 Warning
 Large setup violation  
-There is a large setup violation of -4.421 ns between core/reg_EXE_MEM/ALUO_MEM_reg[4]/C (clocked by clkout3) and vga/data_buf_reg_0_3_6_11/RAMB_D1/I (clocked by clkout0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+There is a large setup violation of -4.785 ns between core/reg_ID_EX/ALUSrc_A_EX_reg_rep__0/C (clocked by clkout3) and vga/data_buf_reg_0_3_18_23/RAMB/I (clocked by clkout0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
 Related violations: <none>
 
 TIMING-16#30 Warning
 Large setup violation  
-There is a large setup violation of -4.425 ns between core/reg_EXE_MEM/ALUO_MEM_reg[4]/C (clocked by clkout3) and vga/data_buf_reg_0_3_0_5/RAMA_D1/I (clocked by clkout0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+There is a large setup violation of -4.788 ns between core/reg_ID_EX/ALUSrc_A_EX_reg_rep__0/C (clocked by clkout3) and vga/data_buf_reg_0_3_6_11/RAMC_D1/I (clocked by clkout0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
 Related violations: <none>
 
 TIMING-16#31 Warning
 Large setup violation  
-There is a large setup violation of -4.455 ns between core/reg_EXE_MEM/ALUO_MEM_reg[4]/C (clocked by clkout3) and vga/data_buf_reg_0_3_24_29/RAMC/I (clocked by clkout0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+There is a large setup violation of -4.823 ns between core/reg_ID_EX/ALUSrc_A_EX_reg_rep__0/C (clocked by clkout3) and vga/data_buf_reg_0_3_6_11/RAMB_D1/I (clocked by clkout0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
 Related violations: <none>
 
 TIMING-16#32 Warning
 Large setup violation  
-There is a large setup violation of -4.515 ns between core/reg_EXE_MEM/ALUO_MEM_reg[4]/C (clocked by clkout3) and vga/data_buf_reg_0_3_0_5/RAMB/I (clocked by clkout0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+There is a large setup violation of -4.826 ns between core/reg_ID_EX/ALUSrc_A_EX_reg_rep__0/C (clocked by clkout3) and vga/data_buf_reg_0_3_6_11/RAMC/I (clocked by clkout0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
 Related violations: <none>
 
 TIMING-16#33 Warning
 Large setup violation  
-There is a large setup violation of -4.526 ns between core/reg_EXE_MEM/ALUO_MEM_reg[4]/C (clocked by clkout3) and vga/data_buf_reg_0_3_18_23/RAMC_D1/I (clocked by clkout0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+There is a large setup violation of -4.842 ns between core/reg_ID_EX/ALUSrc_A_EX_reg_rep__0/C (clocked by clkout3) and vga/data_buf_reg_0_3_12_17/RAMA_D1/I (clocked by clkout0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
 Related violations: <none>
 
 TIMING-16#34 Warning
 Large setup violation  
-There is a large setup violation of -4.545 ns between core/reg_EXE_MEM/ALUO_MEM_reg[4]/C (clocked by clkout3) and vga/data_buf_reg_0_3_24_29/RAMC_D1/I (clocked by clkout0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+There is a large setup violation of -4.867 ns between core/reg_ID_EX/ALUSrc_A_EX_reg_rep__0/C (clocked by clkout3) and vga/data_buf_reg_0_3_0_5/RAMA_D1/I (clocked by clkout0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
 Related violations: <none>
 
 TIMING-16#35 Warning
 Large setup violation  
-There is a large setup violation of -4.552 ns between core/reg_EXE_MEM/ALUO_MEM_reg[4]/C (clocked by clkout3) and vga/data_buf_reg_0_3_0_5/RAMA/I (clocked by clkout0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+There is a large setup violation of -4.881 ns between core/reg_ID_EX/ALUSrc_A_EX_reg_rep__0/C (clocked by clkout3) and vga/data_buf_reg_0_3_24_29/RAMA_D1/I (clocked by clkout0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
 Related violations: <none>
 
 TIMING-16#36 Warning
 Large setup violation  
-There is a large setup violation of -4.636 ns between core/reg_EXE_MEM/ALUO_MEM_reg[4]/C (clocked by clkout3) and vga/data_buf_reg_0_3_12_17/RAMC_D1/I (clocked by clkout0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+There is a large setup violation of -4.883 ns between core/reg_ID_EX/ALUSrc_A_EX_reg_rep__0/C (clocked by clkout3) and vga/data_buf_reg_0_3_12_17/RAMC/I (clocked by clkout0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
 Related violations: <none>
 
 TIMING-16#37 Warning
 Large setup violation  
-There is a large setup violation of -4.650 ns between core/reg_EXE_MEM/ALUO_MEM_reg[4]/C (clocked by clkout3) and vga/data_buf_reg_0_3_30_31/RAMA_D1/I (clocked by clkout0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+There is a large setup violation of -4.890 ns between core/reg_ID_EX/ALUSrc_A_EX_reg_rep__0/C (clocked by clkout3) and vga/data_buf_reg_0_3_12_17/RAMC_D1/I (clocked by clkout0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
 Related violations: <none>
 
 TIMING-16#38 Warning
 Large setup violation  
-There is a large setup violation of -4.696 ns between core/reg_EXE_MEM/ALUO_MEM_reg[4]/C (clocked by clkout3) and vga/data_buf_reg_0_3_0_5/RAMB_D1/I (clocked by clkout0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+There is a large setup violation of -4.916 ns between core/reg_ID_EX/ALUSrc_A_EX_reg_rep__0/C (clocked by clkout3) and vga/data_buf_reg_0_3_18_23/RAMC/I (clocked by clkout0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#39 Warning
+Large setup violation  
+There is a large setup violation of -5.135 ns between core/reg_ID_EX/ALUSrc_A_EX_reg_rep__0/C (clocked by clkout3) and vga/data_buf_reg_0_3_18_23/RAMB_D1/I (clocked by clkout0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
 Related violations: <none>
 
 

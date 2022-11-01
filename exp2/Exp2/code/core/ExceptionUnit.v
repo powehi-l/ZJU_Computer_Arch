@@ -104,10 +104,10 @@ module ExceptionUnit(
         end
     end
 
-assign reg_FD_flush = reg_FD_flush_;
-assign reg_DE_flush = reg_DE_flush_;
-assign reg_EM_flush = reg_EM_flush_;
-assign reg_MW_flush = reg_MW_flush_;
+assign reg_FD_flush = reg_FD_flush_ | mret;
+assign reg_DE_flush = reg_DE_flush_ | mret;
+assign reg_EM_flush = reg_EM_flush_ | mret;
+assign reg_MW_flush = reg_MW_flush_ | mret;
 assign PC_redirect = mret ? mepc_o : mtvec;
 assign redirect_mux = mret | trap;
 assign RegWrite_cancel = RegWrite_cancel_;

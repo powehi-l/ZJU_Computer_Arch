@@ -13,7 +13,7 @@ F:/arch/exp2/Exp2/code/common/cmp_32.v,1628609816,verilog,,F:/arch/exp2/Exp2/cod
 F:/arch/exp2/Exp2/code/core/ALU.v,1628609787,verilog,,F:/arch/exp2/Exp2/code/auxillary/CPUTEST.v,,ALU,,,../../../../code/auxillary,,,,,
 F:/arch/exp2/Exp2/code/core/CSRRegs.v,1666412904,verilog,,F:/arch/exp2/Exp2/code/core/CtrlUnit.v,,CSRRegs,,,../../../../code/auxillary,,,,,
 F:/arch/exp2/Exp2/code/core/CtrlUnit.v,1630068052,verilog,,F:/arch/exp2/Exp2/code/core/ExceptionUnit.v,,CtrlUnit,,,../../../../code/auxillary,,,,,
-F:/arch/exp2/Exp2/code/core/ExceptionUnit.v,1666413103,verilog,,F:/arch/exp2/Exp2/code/core/HazardDetectionUnit.v,,ExceptionUnit,,,../../../../code/auxillary,,,,,
+F:/arch/exp2/Exp2/code/core/ExceptionUnit.v,1667310587,verilog,,F:/arch/exp2/Exp2/code/core/HazardDetectionUnit.v,,ExceptionUnit,,,../../../../code/auxillary,,,,,
 F:/arch/exp2/Exp2/code/core/HazardDetectionUnit.v,1628627081,verilog,,F:/arch/exp2/Exp2/code/core/ImmGen.v,,HazardDetectionUnit,,,../../../../code/auxillary,,,,,
 F:/arch/exp2/Exp2/code/core/ImmGen.v,1630067830,verilog,,F:/arch/exp2/Exp2/code/common/MUX2T1_32.v,,ImmGen,,,../../../../code/auxillary,,,,,
 F:/arch/exp2/Exp2/code/core/RAM_B.v,1630068712,verilog,,F:/arch/exp2/Exp2/code/common/REG32.v,,RAM_B,,,../../../../code/auxillary,,,,,
