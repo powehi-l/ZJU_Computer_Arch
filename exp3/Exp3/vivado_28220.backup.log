@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Tue Oct 25 14:52:55 2022
+# Process ID: 28220
+# Current directory: F:/arch/exp3/Exp3
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent25496 F:\arch\exp3\Exp3\Exp3.xpr
+# Log file: F:/arch/exp3/Exp3/vivado.log
+# Journal file: F:/arch/exp3/Exp3\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project F:/arch/exp3/Exp3/Exp3.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/Zonghui Wang/Desktop/risc v/Code4Teach/Exp3' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [Project 1-230] Project 'Exp3.xpr' upgraded for this version of Vivado.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/vivado/Vivado/2018.3/data/ip'.
+open_project: Time (s): cpu = 00:00:11 ; elapsed = 00:00:06 . Memory (MB): peak = 782.824 ; gain = 155.773
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Oct 25 15:36:56 2022...

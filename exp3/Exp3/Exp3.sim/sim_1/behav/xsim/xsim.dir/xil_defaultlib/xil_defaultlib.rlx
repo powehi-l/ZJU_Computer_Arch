@@ -1,0 +1,8 @@
+0.6
+2018.3
+Dec  7 2018
+00:33:28
+F:/arch/exp3/Exp3/Exp3.sim/sim_1/behav/xsim/glbl.v,1529022455,verilog,,,,glbl,,,,,,,,
+F:/arch/exp3/Exp3/code/addr_define.vh,1630841752,verilog,,,,,,,,,,,,
+F:/arch/exp3/Exp3/code/cache.v,1667286038,verilog,,F:/arch/exp3/Exp3/code/sim/cache_sim.v,F:/arch/exp3/Exp3/code/addr_define.vh,cache,,,../../../../code,,,,,
+F:/arch/exp3/Exp3/code/sim/cache_sim.v,1628584874,verilog,,,,cache_sim,,,../../../../code,,,,,
