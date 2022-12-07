@@ -1,0 +1,14 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../Exp4.srcs/sources_1/imports/code/auxillary" --include "../../../../Exp4.srcs/sources_1/imports/code/cache" \
+"../../../../Exp4.srcs/sources_1/imports/code/cache/cache.v" \
+"../../../../Exp4.srcs/sources_1/imports/code/cache/cmu.v" \
+"../../../../Exp4.srcs/sim_1/imports/cache/sim/cmu_sim.v" \
+"../../../../Exp4.srcs/sources_1/imports/code/cache/sim/data_ram.v" \
+"../../../../Exp4.srcs/sources_1/imports/code/cache/sim/inst.v" \
+"../../../../Exp4.srcs/sim_1/imports/cache/sim/sim_top.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
