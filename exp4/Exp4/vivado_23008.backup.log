@@ -1,0 +1,39 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Wed Mar  1 17:49:24 2023
+# Process ID: 23008
+# Current directory: F:/arch/exp4/Exp4
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent27436 F:\arch\exp4\Exp4\Exp4.xpr
+# Log file: F:/arch/exp4/Exp4/vivado.log
+# Journal file: F:/arch/exp4/Exp4\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project F:/arch/exp4/Exp4/Exp4.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/vivado/Vivado/2018.3/data/ip'.
+open_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:07 . Memory (MB): peak = 778.680 ; gain = 155.836
+update_compile_order -fileset sources_1
+reset_run synth_1
+reset_run ROM_D_synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'ROM_D'...
+[Wed Mar  1 17:50:07 2023] Launched ROM_D_synth_1, synth_1...
+Run output will be captured here:
+ROM_D_synth_1: F:/arch/exp4/Exp4/Exp4.runs/ROM_D_synth_1/runme.log
+synth_1: F:/arch/exp4/Exp4/Exp4.runs/synth_1/runme.log
+[Wed Mar  1 17:50:07 2023] Launched impl_1...
+Run output will be captured here: F:/arch/exp4/Exp4/Exp4.runs/impl_1/runme.log
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+INFO: [Labtools 27-2058] connect_hw_server command cancelled.
+INFO: [Common 17-344] 'connect_hw_server' was cancelled
+close_hw
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Mar  1 18:05:44 2023...

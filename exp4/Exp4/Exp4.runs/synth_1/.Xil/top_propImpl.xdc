@@ -1,4 +1,4 @@
-set_property SRC_FILE_INFO {cfile:D:/Gua/Exp4/Exp4/code/constraint.xdc rfile:../../../code/constraint.xdc id:1} [current_design]
+set_property SRC_FILE_INFO {cfile:F:/arch/exp4/Exp4/Exp4.srcs/constrs_1/imports/code/constraint.xdc rfile:../../../Exp4.srcs/constrs_1/imports/code/constraint.xdc id:1} [current_design]
 set_property src_info {type:XDC file:1 line:3 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN AC18 [get_ports CLK_200M_P]
 set_property src_info {type:XDC file:1 line:5 export:INPUT save:INPUT read:READ} [current_design]
